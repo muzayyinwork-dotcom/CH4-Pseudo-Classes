@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+  </head>
+  <style>
+    body {
+      background: #0f172a;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body h1 {
+      color: #f8fafc;
+    }
+    body p {
+      color: #cbd5e1;
+    }
+    section {
+      background: #1e293b;
+      border: 1px solid #475569;
+      padding: 20px;
+      margin: 20px;
+    }
+    header {
+      background: #1e293b;
+      text-align: center;
+      padding: 30px;
+    }
+    header h1 {
+      color: #f8fafc;
+    }
+    header p {
+      color: #cbd5e1;
+    }
+    h2 {
+      color: #cbd5e1;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+    }
+    button:hover {
+      background: #8b5cf6;
+    }
+    button:active {
+      background: #ef4444;
+    }
+    button:disabled {
+      background: #475569;
+      color: #94a3b8;
+    }
+    input,
+    textarea {
+      background: #334155;
+      color: #f8fafc;
+      border: 2px solid #475569;
+      padding: 10px;
+    }
+    input[type="text"]:focus {
+      border: 2px solid #06b6d4;
+    }
+    input[type="email"]:focus {
+      border: 2px solid #8b5cf6;
+    }
+    textarea:focus {
+      border: 2px solid #22c55e;
+    }
+    ul {
+      background: #1e293b;
+      padding: 20px;
+    }
+    li {
+      color: #cbd5e1;
+      padding: 10px;
+    }
+    li:nth-child(1) {
+      color: cyan;
+    }
+    li:nth-child(2) {
+      color: purple;
+    }
+    li:nth-child(3) {
+      color: green;
+    }
+    li:nth-child(4) {
+      color: orange;
+    }
+    li:nth-child(5) {
+      color: red;
+    }
+    h3::before {
+      content: "→";
+      color: #06b6d4;
+    }
+    h3::after {
+      content: "✓";
+      color: #22c55e;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Interactive Buttons & List</h1>
+      <p>
+        Practice CSS pseudo-classes and pseudo-elements by creating interactive
+        buttons, form controls, and a styled list.
+      </p>
+    </header>
+    <section>
+      <h2>Interactive Buttons</h2>
+      <button>Hover me</button>
+      <button>Press and Hold</button>
+      <button disabled>Press and Hold</button>
+    </section>
+    <section>
+      <h2>Focus Practice</h2>
+      <form>
+        <input type="text" placeholder="Enter your name" />
+        <input type="email" placeholder="Enter your email" />
+        <textarea name="message" placeholder="Enter your message"></textarea>
+      </form>
+    </section>
+    <section>
+      <h2>My Learning Topics</h2>
+      <h3>Topics</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+  </body>
+</html>
